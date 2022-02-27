@@ -1,0 +1,31 @@
+.header{
+    text-align: center;
+    background-color: green;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+    margin-top: 2%;
+}
+
+.images_container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.calender_image, .holiday_image{
+    margin:4%;
+    margin-top: 1%;
+}
+
+span{
+    font-size: 24px;
+}
