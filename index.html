@@ -1,8 +1,57 @@
 <html lang="en">
+
 <head>
     <title>Calender</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        .header {
+            text-align: center;
+            background-color: green;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 24px;
+            margin-top: 2%;
+        }
+
+        .images_container {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .calender_image,
+        .holiday_image {
+            margin: 4%;
+            margin-top: 1%;
+        }
+
+        span {
+            font-size: 24px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            font-size: larger;
+        }
+
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
+
 <body bgcolor="turquoise">
     <div class="header">
         Welcome to 2022
@@ -13,7 +62,7 @@
         <p>Here you can find about all the holidays of the year 2022 along with their details.</p>
     </div>
     <div class="images_container">
-        <img src="https://img.icons8.com/cotton/64/000000/circled-left--v1.png" width="100px"/>
+        <img src="https://img.icons8.com/cotton/64/000000/circled-left--v1.png" width="100px" />
         <img src="assets/calender1.jpeg" usemap="#calender" class="calender_image">
         <map name="calender">
             <area shap="rect" coords="349,243,470,361" href="holidayPage.html" target="_blank">
@@ -25,7 +74,54 @@
             <area shap="rect" coords="952,360,1070,479" href="holidayPage.html" target="_blank">
             <area shap="rect" coords="952,478,1070,595" href="holidayPage.html" target="_blank">
         </map>
-        <img src="https://img.icons8.com/cotton/64/000000/circled-right--v2.png" width="100px"/>
+        <img src="https://img.icons8.com/cotton/64/000000/circled-right--v2.png" width="100px" />
+    </div>
+    <div>
+        <h2 style="background-color: green;">Today</h2>
+        <iframe src="https://www.clocktab.com/" width=100% height="500px"
+            style="border:2px solid white; overflow: hidden;  pointer-events:none;" scrolling="no"></iframe>
+    </div>
+    <div>
+        <h2 style="background-color: green;;text-align:center;font-weight: bolder;">List of all the holidays</h2>
+        <table class="center">
+            <tr>
+                <th>Event</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>National Grammer Day</td>
+                <td>March 04 2022</td>
+            </tr>
+            <tr>
+                <td>National Dress Day</td>
+                <td>March 06 2022</td>
+            </tr>
+            <tr>
+                <td>International Women's Day</td>
+                <td>March 06 2022</td>
+            </tr>
+            <tr>
+                <td>White Day</td>
+                <td>March 06 2022</td>
+            </tr>
+            <tr>
+                <td>Holi</td>
+                <td>March 06 2022</td>
+            </tr>
+            <tr>
+                <td>Let's Laugh Day</td>
+                <td>March 06 2022</td>
+            </tr>
+            <tr>
+                <td>International Day Of Happiness</td>
+                <td>March 06 2022</td>
+            </tr>
+            <tr>
+                <td>Mother's Day</td>
+                <td>March 06 2022</td>
+            </tr>
+        </table>
     </div>
 </body>
+
 </html>
