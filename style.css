@@ -1,31 +1,90 @@
-.header{
+.header {
     text-align: center;
     background-color: green;
     font-size: 40px;
     font-weight: bolder;
 }
 
-h1,h2{
+h1,
+h2 {
     text-align: center;
 }
 
-p{
+h2{
+    background-color: green;
+    text-align:center;
+    font-weight: bolder;
+}
+
+p {
     font-size: 24px;
     margin-top: 2%;
 }
 
-.images_container{
+.images_container {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
 }
 
-.calender_image, .holiday_image{
-    margin:4%;
+.calender_image,
+.holiday_image {
+    margin: 4%;
     margin-top: 1%;
 }
 
-span{
+span {
     font-size: 24px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    font-size: larger;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    border:2px solid white; 
+    overflow: hidden;  
+    pointer-events:none;
+}
+
+.btn_submit{
+    background-color: brown;
+}
+
+label, input, select{
+    display: block;
+    width: 50%;
+    height: 5%;
+}
+
+textarea{
+    display: block;
+    margin: 1px 23% 2px 23%;
+    width: 50%;
+    height: 6%;
+}
+
+label{
+    font-size: 24px;
+    margin: 2px 23% 1px 23%;
+    font-weight: bolder;
+}
+
+input, select{
+    margin: 1px 23% 2px 23%;
+}
+
+.btn_submit{
+    display: block;
+    margin: 5px 23% 1px 23%;
+    font-size: 20px;
 }
